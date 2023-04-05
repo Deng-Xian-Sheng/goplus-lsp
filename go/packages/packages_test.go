@@ -26,10 +26,10 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/tools/go/packages"
-	"golang.org/x/tools/go/packages/packagestest"
-	"golang.org/x/tools/internal/packagesinternal"
-	"golang.org/x/tools/internal/testenv"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/packages"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/packages/packagestest"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/packagesinternal"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/testenv"
 )
 
 // testCtx is canceled when the test binary is about to time out.

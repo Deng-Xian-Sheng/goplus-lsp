@@ -19,15 +19,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"golang.org/x/tools/gopls/internal/lsp"
-	"golang.org/x/tools/gopls/internal/lsp/cache"
-	"golang.org/x/tools/gopls/internal/lsp/command"
-	"golang.org/x/tools/gopls/internal/lsp/debug"
-	"golang.org/x/tools/gopls/internal/lsp/protocol"
-	"golang.org/x/tools/gopls/internal/lsp/source"
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/event/tag"
-	"golang.org/x/tools/internal/jsonrpc2"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/cache"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/command"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/debug"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/protocol"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/source"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/event"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/event/tag"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/jsonrpc2"
 )
 
 // Unique identifiers for client/server.

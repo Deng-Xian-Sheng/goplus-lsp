@@ -27,8 +27,8 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/tools/internal/goroot"
-	"golang.org/x/tools/internal/testenv"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/goroot"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/testenv"
 )
 
 func TestMain(m *testing.M) {

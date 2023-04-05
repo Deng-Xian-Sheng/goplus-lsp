@@ -17,18 +17,18 @@ import (
 	"io"
 	"strings"
 
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/analysis"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/packages"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/govulncheck"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/protocol"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/span"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/event/label"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/event/tag"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/gocommand"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/imports"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/packagesinternal"
 	"golang.org/x/mod/modfile"
 	"golang.org/x/mod/module"
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/packages"
-	"golang.org/x/tools/gopls/internal/govulncheck"
-	"golang.org/x/tools/gopls/internal/lsp/protocol"
-	"golang.org/x/tools/gopls/internal/span"
-	"golang.org/x/tools/internal/event/label"
-	"golang.org/x/tools/internal/event/tag"
-	"golang.org/x/tools/internal/gocommand"
-	"golang.org/x/tools/internal/imports"
-	"golang.org/x/tools/internal/packagesinternal"
 )
 
 // A GlobalSnapshotID uniquely identifies a snapshot within this process and

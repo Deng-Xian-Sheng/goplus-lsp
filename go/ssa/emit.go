@@ -12,7 +12,7 @@ import (
 	"go/token"
 	"go/types"
 
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/typeparams"
 )
 
 // emitNew emits to f a new (heap Alloc) instruction allocating an

@@ -11,8 +11,8 @@ import (
 	"testing"
 	"unicode/utf8"
 
-	"golang.org/x/tools/internal/diff"
-	"golang.org/x/tools/internal/diff/difftest"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/diff"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/diff/difftest"
 )
 
 func TestApply(t *testing.T) {
@@ -130,9 +130,9 @@ func TestToUnified(t *testing.T) {
 }
 
 func TestRegressionOld001(t *testing.T) {
-	a := "// Copyright 2019 The Go Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style\n// license that can be found in the LICENSE file.\n\npackage diff_test\n\nimport (\n\t\"fmt\"\n\t\"math/rand\"\n\t\"strings\"\n\t\"testing\"\n\n\t\"golang.org/x/tools/gopls/internal/lsp/diff\"\n\t\"golang.org/x/tools/internal/diff/difftest\"\n\t\"golang.org/x/tools/gopls/internal/span\"\n)\n"
+	a := "// Copyright 2019 The Go Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style\n// license that can be found in the LICENSE file.\n\npackage diff_test\n\nimport (\n\t\"fmt\"\n\t\"math/rand\"\n\t\"strings\"\n\t\"testing\"\n\n\t\"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/diff\"\n\t\"github.com/Deng-Xian-Sheng/goplus-lsp/internal/diff/difftest\"\n\t\"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/span\"\n)\n"
 
-	b := "// Copyright 2019 The Go Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style\n// license that can be found in the LICENSE file.\n\npackage diff_test\n\nimport (\n\t\"fmt\"\n\t\"math/rand\"\n\t\"strings\"\n\t\"testing\"\n\n\t\"github.com/google/safehtml/template\"\n\t\"golang.org/x/tools/gopls/internal/lsp/diff\"\n\t\"golang.org/x/tools/internal/diff/difftest\"\n\t\"golang.org/x/tools/gopls/internal/span\"\n)\n"
+	b := "// Copyright 2019 The Go Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style\n// license that can be found in the LICENSE file.\n\npackage diff_test\n\nimport (\n\t\"fmt\"\n\t\"math/rand\"\n\t\"strings\"\n\t\"testing\"\n\n\t\"github.com/google/safehtml/template\"\n\t\"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/diff\"\n\t\"github.com/Deng-Xian-Sheng/goplus-lsp/internal/diff/difftest\"\n\t\"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/span\"\n)\n"
 	diffs := diff.Strings(a, b)
 	got, err := diff.Apply(a, diffs)
 	if err != nil {

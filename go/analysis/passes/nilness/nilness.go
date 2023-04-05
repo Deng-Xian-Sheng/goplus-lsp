@@ -12,9 +12,9 @@ import (
 	"go/token"
 	"go/types"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/analysis/passes/buildssa"
-	"golang.org/x/tools/go/ssa"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/analysis"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/analysis/passes/buildssa"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/ssa"
 )
 
 const Doc = `check for redundant or impossible nil comparisons

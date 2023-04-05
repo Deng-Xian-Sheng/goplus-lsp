@@ -16,12 +16,12 @@ import (
 	"strings"
 	"text/scanner"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/ast/astutil"
-	"golang.org/x/tools/gopls/internal/lsp/safetoken"
-	"golang.org/x/tools/gopls/internal/span"
-	"golang.org/x/tools/internal/analysisinternal"
-	"golang.org/x/tools/internal/bug"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/analysis"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/ast/astutil"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/safetoken"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/span"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/analysisinternal"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/bug"
 )
 
 func extractVariable(fset *token.FileSet, rng span.Range, src []byte, file *ast.File, _ *types.Package, info *types.Info) (*analysis.SuggestedFix, error) {

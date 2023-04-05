@@ -34,7 +34,7 @@ import (
 	"go/types"
 	"reflect"
 
-	"golang.org/x/tools/go/ssa"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/ssa"
 )
 
 func init() {

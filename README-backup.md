@@ -1,14 +1,14 @@
 # Go Tools
 
-[![PkgGoDev](https://pkg.go.dev/badge/golang.org/x/tools)](https://pkg.go.dev/golang.org/x/tools)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/Deng-Xian-Sheng/goplus-lsp)](https://pkg.go.dev/github.com/Deng-Xian-Sheng/goplus-lsp)
 
-This repository provides the `golang.org/x/tools` module, comprising
+This repository provides the `github.com/Deng-Xian-Sheng/goplus-lsp` module, comprising
 various tools and packages mostly for static analysis of Go programs,
 some of which are listed below.
 Use the "Go reference" link above for more information about any package.
 
 It also contains the
-[`golang.org/x/tools/gopls`](https://pkg.go.dev/golang.org/x/tools/gopls)
+[`github.com/Deng-Xian-Sheng/goplus-lsp/gopls`](https://pkg.go.dev/github.com/Deng-Xian-Sheng/goplus-lsp/gopls)
 module, whose root package is a language-server protocol (LSP) server for Go.
 An LSP server analyses the source code of a project and
 responds to requests from a wide range of editors such as VSCode and
@@ -28,7 +28,7 @@ Selected commands:
 
 These commands may be fetched with a command such as
 ```
-go install golang.org/x/tools/cmd/goimports@latest
+go install github.com/Deng-Xian-Sheng/goplus-lsp/cmd/goimports@latest
 ```
 
 Selected packages:
@@ -64,17 +64,17 @@ Numerous other packages provide more esoteric functionality.
 
 <!-- Some that didn't make the cut: 
 
-golang.org/x/tools/benchmark/parse
-golang.org/x/tools/go/ast/astutil
-golang.org/x/tools/go/types/typeutil
-golang.org/x/tools/go/vcs
-golang.org/x/tools/godoc
-golang.org/x/tools/playground
-golang.org/x/tools/present
-golang.org/x/tools/refactor/importgraph
-golang.org/x/tools/refactor/rename
-golang.org/x/tools/refactor/satisfy
-golang.org/x/tools/txtar
+github.com/Deng-Xian-Sheng/goplus-lsp/benchmark/parse
+github.com/Deng-Xian-Sheng/goplus-lsp/go/ast/astutil
+github.com/Deng-Xian-Sheng/goplus-lsp/go/types/typeutil
+github.com/Deng-Xian-Sheng/goplus-lsp/go/vcs
+github.com/Deng-Xian-Sheng/goplus-lsp/godoc
+github.com/Deng-Xian-Sheng/goplus-lsp/playground
+github.com/Deng-Xian-Sheng/goplus-lsp/present
+github.com/Deng-Xian-Sheng/goplus-lsp/refactor/importgraph
+github.com/Deng-Xian-Sheng/goplus-lsp/refactor/rename
+github.com/Deng-Xian-Sheng/goplus-lsp/refactor/satisfy
+github.com/Deng-Xian-Sheng/goplus-lsp/txtar
 
 -->
 

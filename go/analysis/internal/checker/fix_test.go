@@ -13,10 +13,10 @@ import (
 	"runtime"
 	"testing"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/analysis/analysistest"
-	"golang.org/x/tools/go/analysis/internal/checker"
-	"golang.org/x/tools/internal/testenv"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/analysis"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/analysis/analysistest"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/analysis/internal/checker"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/testenv"
 )
 
 func main() {

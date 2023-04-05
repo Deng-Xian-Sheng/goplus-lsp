@@ -12,7 +12,7 @@ import (
 	"go/types"
 	"testing"
 
-	"golang.org/x/tools/go/types/typeutil"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/types/typeutil"
 )
 
 type closure map[string]*types.Package

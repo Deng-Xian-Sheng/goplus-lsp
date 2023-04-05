@@ -16,11 +16,11 @@ import (
 	"sync"
 	"text/template"
 
-	"golang.org/x/tools/gopls/internal/lsp/protocol"
-	"golang.org/x/tools/gopls/internal/lsp/snippet"
-	"golang.org/x/tools/gopls/internal/lsp/source"
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/imports"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/protocol"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/snippet"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/source"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/event"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/imports"
 )
 
 // Postfix snippets are artificial methods that allow the user to

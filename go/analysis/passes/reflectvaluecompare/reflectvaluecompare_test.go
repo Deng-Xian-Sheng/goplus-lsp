@@ -7,8 +7,8 @@ package reflectvaluecompare_test
 import (
 	"testing"
 
-	"golang.org/x/tools/go/analysis/analysistest"
-	"golang.org/x/tools/go/analysis/passes/reflectvaluecompare"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/analysis/analysistest"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/analysis/passes/reflectvaluecompare"
 )
 
 func TestReflectValueCompare(t *testing.T) {

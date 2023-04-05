@@ -11,7 +11,7 @@ import (
 	"os"
 	"testing"
 
-	"golang.org/x/tools/go/gcexportdata"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/gcexportdata"
 )
 
 // Test to ensure that gcexportdata can read files produced by App

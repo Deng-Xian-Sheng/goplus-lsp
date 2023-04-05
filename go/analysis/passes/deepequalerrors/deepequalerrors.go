@@ -10,10 +10,10 @@ import (
 	"go/ast"
 	"go/types"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/analysis/passes/inspect"
-	"golang.org/x/tools/go/ast/inspector"
-	"golang.org/x/tools/go/types/typeutil"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/analysis"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/analysis/passes/inspect"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/ast/inspector"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/types/typeutil"
 )
 
 const Doc = `check for calls of reflect.DeepEqual on error values

@@ -8,9 +8,9 @@ import (
 	"encoding/json"
 	"testing"
 
-	"golang.org/x/tools/gopls/internal/lsp/protocol"
-	"golang.org/x/tools/gopls/internal/lsp/tests"
-	"golang.org/x/tools/gopls/internal/span"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/protocol"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/tests"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/span"
 )
 
 func (r *runner) Link(t *testing.T, uri span.URI, wantLinks []tests.Link) {

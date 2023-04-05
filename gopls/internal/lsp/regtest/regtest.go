@@ -15,12 +15,12 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/tools/gopls/internal/lsp/cmd"
-	"golang.org/x/tools/gopls/internal/lsp/source"
-	"golang.org/x/tools/internal/gocommand"
-	"golang.org/x/tools/internal/memoize"
-	"golang.org/x/tools/internal/testenv"
-	"golang.org/x/tools/internal/tool"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/cmd"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/source"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/gocommand"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/memoize"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/testenv"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/tool"
 )
 
 var (

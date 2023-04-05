@@ -11,9 +11,9 @@ import (
 	"go/types"
 	"testing"
 
-	"golang.org/x/tools/go/ssa"
-	"golang.org/x/tools/go/ssa/ssautil"
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/ssa"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/ssa/ssautil"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/typeparams"
 )
 
 // Tests that MethodValue returns the expected method.

@@ -10,12 +10,12 @@ import (
 	"fmt"
 	"sync"
 
-	"golang.org/x/tools/gopls/internal/lsp/cache"
-	"golang.org/x/tools/gopls/internal/lsp/progress"
-	"golang.org/x/tools/gopls/internal/lsp/protocol"
-	"golang.org/x/tools/gopls/internal/lsp/source"
-	"golang.org/x/tools/gopls/internal/span"
-	"golang.org/x/tools/internal/jsonrpc2"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/cache"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/progress"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/protocol"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/source"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/span"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/jsonrpc2"
 )
 
 const concurrentAnalyses = 1

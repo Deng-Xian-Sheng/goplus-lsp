@@ -7,7 +7,7 @@ package cache
 import (
 	"io"
 
-	"golang.org/x/tools/internal/event/label"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/event/label"
 )
 
 var (

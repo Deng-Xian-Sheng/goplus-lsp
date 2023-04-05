@@ -37,7 +37,7 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/tools/cover"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/cover"
 )
 
 var (
@@ -64,7 +64,7 @@ func main() {
 	tests = realTestName(tests)
 
 	// report coverage for packages under internal/lsp
-	parg := "golang.org/x/tools/gopls/internal/lsp/..."
+	parg := "github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/..."
 
 	accum := []string{}
 	seen := make(map[string]bool)
@@ -233,8 +233,8 @@ func checkCwd() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	// we expect to be at the root of golang.org/x/tools
-	cmd := exec.Command("go", "list", "-m", "-f", "{{.Dir}}", "golang.org/x/tools")
+	// we expect to be at the root of github.com/Deng-Xian-Sheng/goplus-lsp
+	cmd := exec.Command("go", "list", "-m", "-f", "{{.Dir}}", "github.com/Deng-Xian-Sheng/goplus-lsp")
 	buf, err := cmd.Output()
 	buf = bytes.Trim(buf, "\n \t") // remove \n at end
 	if err != nil {

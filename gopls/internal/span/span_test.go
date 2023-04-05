@@ -11,7 +11,7 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/gopls/internal/span"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/span"
 )
 
 var (

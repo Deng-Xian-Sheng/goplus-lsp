@@ -6,10 +6,9 @@ package misc
 import (
 	"testing"
 
-	. "golang.org/x/tools/gopls/internal/lsp/regtest"
-	"golang.org/x/tools/gopls/internal/lsp/tests/compare"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/tests/compare"
 
-	"golang.org/x/tools/gopls/internal/lsp/protocol"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/protocol"
 )
 
 func TestExtractFunction(t *testing.T) {

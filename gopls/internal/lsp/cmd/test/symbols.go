@@ -7,9 +7,9 @@ package cmdtest
 import (
 	"testing"
 
-	"golang.org/x/tools/gopls/internal/lsp/protocol"
-	"golang.org/x/tools/gopls/internal/lsp/tests/compare"
-	"golang.org/x/tools/gopls/internal/span"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/protocol"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/tests/compare"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/span"
 )
 
 func (r *runner) Symbols(t *testing.T, uri span.URI, expectedSymbols []protocol.DocumentSymbol) {

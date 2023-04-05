@@ -4,7 +4,7 @@
 
 package regtest
 
-import "golang.org/x/tools/gopls/internal/lsp/fake"
+import "github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/fake"
 
 type runConfig struct {
 	editor    fake.EditorConfig

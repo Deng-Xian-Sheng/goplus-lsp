@@ -42,9 +42,9 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"golang.org/x/tools/gopls/internal/lsp/safetoken"
-	"golang.org/x/tools/gopls/internal/span"
-	"golang.org/x/tools/internal/bug"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/safetoken"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/span"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/bug"
 )
 
 // A ColumnMapper maps between UTF-8 oriented positions (e.g. token.Pos,

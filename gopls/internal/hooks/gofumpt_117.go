@@ -7,7 +7,7 @@
 
 package hooks
 
-import "golang.org/x/tools/gopls/internal/lsp/source"
+import "github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/source"
 
 func updateGofumpt(options *source.Options) {
 }

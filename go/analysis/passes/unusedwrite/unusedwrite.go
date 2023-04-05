@@ -9,9 +9,9 @@ import (
 	"fmt"
 	"go/types"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/analysis/passes/buildssa"
-	"golang.org/x/tools/go/ssa"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/analysis"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/analysis/passes/buildssa"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/ssa"
 )
 
 // Doc is a documentation string.

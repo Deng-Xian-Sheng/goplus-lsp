@@ -8,8 +8,8 @@ import (
 	"context"
 	"encoding/json"
 
-	"golang.org/x/tools/gopls/internal/lsp/protocol"
-	jsonrpc2_v2 "golang.org/x/tools/internal/jsonrpc2_v2"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/protocol"
+	jsonrpc2_v2 "github.com/Deng-Xian-Sheng/goplus-lsp/internal/jsonrpc2_v2"
 )
 
 // HandlerMiddleware is a middleware that only modifies the jsonrpc2 handler.

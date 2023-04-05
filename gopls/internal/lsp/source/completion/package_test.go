@@ -7,7 +7,7 @@ package completion
 import (
 	"testing"
 
-	"golang.org/x/tools/gopls/internal/lsp/source"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/source"
 )
 
 func TestIsValidDirName(t *testing.T) {

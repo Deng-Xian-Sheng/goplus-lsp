@@ -33,7 +33,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"golang.org/x/tools/present"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/present"
 )
 
 func usage() {

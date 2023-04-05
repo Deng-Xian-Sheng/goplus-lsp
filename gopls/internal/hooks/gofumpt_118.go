@@ -10,7 +10,7 @@ package hooks
 import (
 	"context"
 
-	"golang.org/x/tools/gopls/internal/lsp/source"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/source"
 	"mvdan.cc/gofumpt/format"
 )
 

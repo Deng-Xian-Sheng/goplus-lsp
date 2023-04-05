@@ -13,15 +13,15 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"golang.org/x/tools/gopls/internal/govulncheck"
-	"golang.org/x/tools/gopls/internal/lsp/source"
-	"golang.org/x/tools/gopls/internal/span"
-	"golang.org/x/tools/internal/bug"
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/gocommand"
-	"golang.org/x/tools/internal/imports"
-	"golang.org/x/tools/internal/persistent"
-	"golang.org/x/tools/internal/xcontext"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/govulncheck"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/source"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/span"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/bug"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/event"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/gocommand"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/imports"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/persistent"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/xcontext"
 )
 
 type Session struct {

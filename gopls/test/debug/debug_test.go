@@ -19,12 +19,12 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/packages"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/cache"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/debug"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/source"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/span"
 	"github.com/jba/templatecheck"
-	"golang.org/x/tools/go/packages"
-	"golang.org/x/tools/gopls/internal/lsp/cache"
-	"golang.org/x/tools/gopls/internal/lsp/debug"
-	"golang.org/x/tools/gopls/internal/lsp/source"
-	"golang.org/x/tools/gopls/internal/span"
 )
 
 type tdata struct {
@@ -90,7 +90,7 @@ func TestTemplates(t *testing.T) {
 	cfg := &packages.Config{
 		Mode: packages.NeedTypesInfo | packages.LoadAllSyntax, // figure out what's necessary PJW
 	}
-	pkgs, err := packages.Load(cfg, "golang.org/x/tools/gopls/internal/lsp/debug")
+	pkgs, err := packages.Load(cfg, "github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/debug")
 	if err != nil {
 		t.Fatal(err)
 	}

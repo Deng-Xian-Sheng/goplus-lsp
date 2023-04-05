@@ -12,8 +12,8 @@ import (
 	"testing"
 	"time"
 
-	jsonrpc2 "golang.org/x/tools/internal/jsonrpc2_v2"
-	"golang.org/x/tools/internal/stack/stacktest"
+	jsonrpc2 "github.com/Deng-Xian-Sheng/goplus-lsp/internal/jsonrpc2_v2"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/stack/stacktest"
 )
 
 func TestIdleTimeout(t *testing.T) {

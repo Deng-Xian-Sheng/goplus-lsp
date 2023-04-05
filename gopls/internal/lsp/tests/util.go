@@ -17,11 +17,11 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/gopls/internal/lsp/protocol"
-	"golang.org/x/tools/gopls/internal/lsp/source"
-	"golang.org/x/tools/gopls/internal/lsp/source/completion"
-	"golang.org/x/tools/gopls/internal/lsp/tests/compare"
-	"golang.org/x/tools/gopls/internal/span"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/protocol"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/source"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/source/completion"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/tests/compare"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/span"
 )
 
 // DiffLinks takes the links we got and checks if they are located within the source or a Note.

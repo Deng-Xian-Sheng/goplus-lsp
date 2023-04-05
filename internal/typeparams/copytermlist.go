@@ -22,7 +22,7 @@ import (
 	"runtime"
 	"strings"
 
-	"golang.org/x/tools/go/ast/astutil"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/ast/astutil"
 )
 
 func main() {

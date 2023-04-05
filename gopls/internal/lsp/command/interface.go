@@ -17,8 +17,8 @@ package command
 import (
 	"context"
 
-	"golang.org/x/tools/gopls/internal/govulncheck"
-	"golang.org/x/tools/gopls/internal/lsp/protocol"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/govulncheck"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/protocol"
 )
 
 // Interface defines the interface gopls exposes for the

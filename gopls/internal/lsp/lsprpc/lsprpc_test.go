@@ -12,14 +12,14 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/tools/gopls/internal/lsp/cache"
-	"golang.org/x/tools/gopls/internal/lsp/debug"
-	"golang.org/x/tools/gopls/internal/lsp/fake"
-	"golang.org/x/tools/gopls/internal/lsp/protocol"
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/jsonrpc2"
-	"golang.org/x/tools/internal/jsonrpc2/servertest"
-	"golang.org/x/tools/internal/testenv"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/cache"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/debug"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/fake"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/protocol"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/event"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/jsonrpc2"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/jsonrpc2/servertest"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/testenv"
 )
 
 type FakeClient struct {

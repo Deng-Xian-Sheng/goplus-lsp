@@ -15,16 +15,16 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/tools/gopls/internal/lsp/debug/log"
-	"golang.org/x/tools/gopls/internal/lsp/mod"
-	"golang.org/x/tools/gopls/internal/lsp/protocol"
-	"golang.org/x/tools/gopls/internal/lsp/source"
-	"golang.org/x/tools/gopls/internal/lsp/template"
-	"golang.org/x/tools/gopls/internal/lsp/work"
-	"golang.org/x/tools/gopls/internal/span"
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/event/tag"
-	"golang.org/x/tools/internal/xcontext"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/debug/log"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/mod"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/protocol"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/source"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/template"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/work"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/span"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/event"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/event/tag"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/xcontext"
 )
 
 // diagnosticSource differentiates different sources of diagnostics.

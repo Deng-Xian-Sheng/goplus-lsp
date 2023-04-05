@@ -15,10 +15,10 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/go/buildutil"
-	"golang.org/x/tools/go/gcexportdata"
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/go/types/objectpath"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/buildutil"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/gcexportdata"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/loader"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/types/objectpath"
 )
 
 func TestPaths(t *testing.T) {

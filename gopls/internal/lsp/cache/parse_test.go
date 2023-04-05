@@ -15,7 +15,7 @@ import (
 	"sort"
 	"testing"
 
-	"golang.org/x/tools/go/packages"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/packages"
 )
 
 func TestArrayLength(t *testing.T) {

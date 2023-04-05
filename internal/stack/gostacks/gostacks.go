@@ -13,7 +13,7 @@ import (
 	"fmt"
 	"os"
 
-	"golang.org/x/tools/internal/stack"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/stack"
 )
 
 func main() {

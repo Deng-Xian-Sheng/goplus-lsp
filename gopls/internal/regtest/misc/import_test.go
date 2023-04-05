@@ -7,11 +7,10 @@ package misc
 import (
 	"testing"
 
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/command"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/protocol"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/tests/compare"
 	"github.com/google/go-cmp/cmp"
-	"golang.org/x/tools/gopls/internal/lsp/command"
-	"golang.org/x/tools/gopls/internal/lsp/protocol"
-	. "golang.org/x/tools/gopls/internal/lsp/regtest"
-	"golang.org/x/tools/gopls/internal/lsp/tests/compare"
 )
 
 func TestAddImport(t *testing.T) {

@@ -5,7 +5,7 @@
 package compare
 
 import (
-	"golang.org/x/tools/internal/diff"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/diff"
 )
 
 // Text returns a formatted unified diff of the edits to go from want to

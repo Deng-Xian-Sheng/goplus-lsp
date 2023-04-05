@@ -8,8 +8,7 @@ import (
 	"context"
 	"testing"
 
-	"golang.org/x/tools/gopls/internal/lsp/fake"
-	. "golang.org/x/tools/gopls/internal/lsp/regtest"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/fake"
 )
 
 // BenchmarkInitialWorkspaceLoad benchmarks the initial workspace load time for

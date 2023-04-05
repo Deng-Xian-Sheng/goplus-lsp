@@ -12,7 +12,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"golang.org/x/tools/gopls/internal/lsp/command/gen"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/command/gen"
 )
 
 func main() {

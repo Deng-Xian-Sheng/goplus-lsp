@@ -10,10 +10,10 @@ import (
 	"sort"
 	"strings"
 
-	"golang.org/x/tools/gopls/internal/lsp"
-	"golang.org/x/tools/gopls/internal/lsp/fake"
-	"golang.org/x/tools/gopls/internal/lsp/protocol"
-	"golang.org/x/tools/internal/testenv"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/fake"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/protocol"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/testenv"
 )
 
 // An Expectation asserts that the state of the editor at a point in time

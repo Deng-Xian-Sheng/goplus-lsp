@@ -23,17 +23,17 @@ import (
 
 	exec "golang.org/x/sys/execabs"
 
-	"golang.org/x/tools/gopls/internal/lsp/cache"
-	"golang.org/x/tools/gopls/internal/lsp/debug"
-	"golang.org/x/tools/gopls/internal/lsp/fake"
-	"golang.org/x/tools/gopls/internal/lsp/lsprpc"
-	"golang.org/x/tools/gopls/internal/lsp/protocol"
-	"golang.org/x/tools/gopls/internal/lsp/source"
-	"golang.org/x/tools/internal/jsonrpc2"
-	"golang.org/x/tools/internal/jsonrpc2/servertest"
-	"golang.org/x/tools/internal/memoize"
-	"golang.org/x/tools/internal/testenv"
-	"golang.org/x/tools/internal/xcontext"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/cache"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/debug"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/fake"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/lsprpc"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/protocol"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/source"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/jsonrpc2"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/jsonrpc2/servertest"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/memoize"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/testenv"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/xcontext"
 )
 
 // Mode is a bitmask that defines for which execution modes a test should run.

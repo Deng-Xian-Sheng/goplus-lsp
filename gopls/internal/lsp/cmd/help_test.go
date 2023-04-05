@@ -12,9 +12,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"golang.org/x/tools/gopls/internal/lsp/cmd"
-	"golang.org/x/tools/internal/testenv"
-	"golang.org/x/tools/internal/tool"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/cmd"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/testenv"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/tool"
 )
 
 //go:generate go test -run Help -update-help-files

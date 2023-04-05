@@ -22,10 +22,10 @@ import (
 	"sync"
 	"unicode"
 
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/internal/packagesdriver"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/gocommand"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/packagesinternal"
 	exec "golang.org/x/sys/execabs"
-	"golang.org/x/tools/go/internal/packagesdriver"
-	"golang.org/x/tools/internal/gocommand"
-	"golang.org/x/tools/internal/packagesinternal"
 )
 
 // debug controls verbose logging.

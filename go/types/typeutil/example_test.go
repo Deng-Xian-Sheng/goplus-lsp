@@ -12,7 +12,7 @@ import (
 	"go/types"
 	"sort"
 
-	"golang.org/x/tools/go/types/typeutil"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/types/typeutil"
 )
 
 func ExampleMap() {

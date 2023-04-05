@@ -14,9 +14,9 @@ import (
 	"regexp"
 	"strings"
 
-	"golang.org/x/tools/internal/gocommand"
-	"golang.org/x/tools/internal/packagesinternal"
-	"golang.org/x/tools/internal/proxydir"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/gocommand"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/packagesinternal"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/proxydir"
 )
 
 // Modules is the exporter that produces module layouts.

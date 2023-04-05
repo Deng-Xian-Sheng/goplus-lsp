@@ -9,18 +9,18 @@
 //
 // See https://github.com/golang/tools/blob/master/gopls/README.md
 // for the most up-to-date documentation.
-package main // import "golang.org/x/tools/gopls"
+package main // import "github.com/Deng-Xian-Sheng/goplus-lsp/gopls"
 
 //go:generate go run doc/generate.go
 
 import (
 	"context"
-	"golang.org/x/tools/internal/analysisinternal"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/analysisinternal"
 	"os"
 
-	"golang.org/x/tools/gopls/internal/hooks"
-	"golang.org/x/tools/gopls/internal/lsp/cmd"
-	"golang.org/x/tools/internal/tool"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/hooks"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/cmd"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/tool"
 )
 
 func main() {

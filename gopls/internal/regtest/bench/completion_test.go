@@ -10,9 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	. "golang.org/x/tools/gopls/internal/lsp/regtest"
-
-	"golang.org/x/tools/gopls/internal/lsp/fake"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/fake"
 )
 
 type completionBenchOptions struct {

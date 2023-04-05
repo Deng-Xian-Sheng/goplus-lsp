@@ -20,13 +20,13 @@ import (
 	"time"
 	"unicode/utf8"
 
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/types/typeutil"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/protocol"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/safetoken"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/bug"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/event"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/typeparams"
 	"golang.org/x/text/unicode/runenames"
-	"golang.org/x/tools/go/types/typeutil"
-	"golang.org/x/tools/gopls/internal/lsp/protocol"
-	"golang.org/x/tools/gopls/internal/lsp/safetoken"
-	"golang.org/x/tools/internal/bug"
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/typeparams"
 )
 
 // HoverContext contains context extracted from the syntax and type information

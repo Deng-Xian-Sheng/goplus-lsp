@@ -7,8 +7,7 @@ package misc
 import (
 	"testing"
 
-	"golang.org/x/tools/gopls/internal/lsp/fake"
-	. "golang.org/x/tools/gopls/internal/lsp/regtest"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/fake"
 )
 
 // Smoke test that simultaneous editing sessions in the same workspace works.

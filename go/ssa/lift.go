@@ -45,7 +45,7 @@ import (
 	"math/big"
 	"os"
 
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/typeparams"
 )
 
 // If true, show diagnostic information at each step of lifting.

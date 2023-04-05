@@ -12,10 +12,10 @@ import (
 	"go/types"
 	"testing"
 
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/packages"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/gcimporter"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/testenv"
 	"golang.org/x/sync/errgroup"
-	"golang.org/x/tools/go/packages"
-	"golang.org/x/tools/internal/gcimporter"
-	"golang.org/x/tools/internal/testenv"
 )
 
 // TestStd type-checks the standard library using shallow export data.

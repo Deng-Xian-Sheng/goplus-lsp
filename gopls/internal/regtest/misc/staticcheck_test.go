@@ -7,9 +7,7 @@ package misc
 import (
 	"testing"
 
-	"golang.org/x/tools/internal/testenv"
-
-	. "golang.org/x/tools/gopls/internal/lsp/regtest"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/testenv"
 )
 
 func TestStaticcheckGenerics(t *testing.T) {

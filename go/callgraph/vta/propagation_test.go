@@ -13,9 +13,9 @@ import (
 	"testing"
 	"unsafe"
 
-	"golang.org/x/tools/go/ssa"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/ssa"
 
-	"golang.org/x/tools/go/types/typeutil"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/types/typeutil"
 )
 
 // val is a test data structure for creating ssa.Value

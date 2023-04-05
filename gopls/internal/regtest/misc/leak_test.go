@@ -8,15 +8,14 @@ import (
 	"context"
 	"testing"
 
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/hooks"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/cache"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/debug"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/fake"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/lsprpc"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/jsonrpc2"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/jsonrpc2/servertest"
 	"github.com/google/go-cmp/cmp"
-	"golang.org/x/tools/gopls/internal/hooks"
-	"golang.org/x/tools/gopls/internal/lsp/cache"
-	"golang.org/x/tools/gopls/internal/lsp/debug"
-	"golang.org/x/tools/gopls/internal/lsp/fake"
-	"golang.org/x/tools/gopls/internal/lsp/lsprpc"
-	. "golang.org/x/tools/gopls/internal/lsp/regtest"
-	"golang.org/x/tools/internal/jsonrpc2"
-	"golang.org/x/tools/internal/jsonrpc2/servertest"
 )
 
 // Test for golang/go#57222.

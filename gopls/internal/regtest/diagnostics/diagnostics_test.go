@@ -10,14 +10,13 @@ import (
 	"os/exec"
 	"testing"
 
-	"golang.org/x/tools/gopls/internal/hooks"
-	. "golang.org/x/tools/gopls/internal/lsp/regtest"
-	"golang.org/x/tools/internal/bug"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/hooks"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/bug"
 
-	"golang.org/x/tools/gopls/internal/lsp"
-	"golang.org/x/tools/gopls/internal/lsp/fake"
-	"golang.org/x/tools/gopls/internal/lsp/protocol"
-	"golang.org/x/tools/internal/testenv"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/fake"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/protocol"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/testenv"
 )
 
 func TestMain(m *testing.M) {

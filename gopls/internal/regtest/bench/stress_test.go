@@ -11,12 +11,12 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/tools/gopls/internal/hooks"
-	"golang.org/x/tools/gopls/internal/lsp/cache"
-	"golang.org/x/tools/gopls/internal/lsp/fake"
-	"golang.org/x/tools/gopls/internal/lsp/lsprpc"
-	"golang.org/x/tools/internal/jsonrpc2"
-	"golang.org/x/tools/internal/jsonrpc2/servertest"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/hooks"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/cache"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/fake"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/lsprpc"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/jsonrpc2"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/jsonrpc2/servertest"
 )
 
 // github.com/pilosa/pilosa is a repository that has historically caused

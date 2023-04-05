@@ -20,8 +20,8 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/tools/gopls/internal/span"
-	"golang.org/x/tools/txtar"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/span"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/txtar"
 	"golang.org/x/vuln/client"
 	"golang.org/x/vuln/osv"
 )

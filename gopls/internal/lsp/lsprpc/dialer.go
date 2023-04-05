@@ -12,8 +12,8 @@ import (
 	"os"
 	"time"
 
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/event"
 	exec "golang.org/x/sys/execabs"
-	"golang.org/x/tools/internal/event"
 )
 
 // AutoNetwork is the pseudo network type used to signal that gopls should use

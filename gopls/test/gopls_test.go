@@ -8,13 +8,13 @@ import (
 	"os"
 	"testing"
 
-	"golang.org/x/tools/gopls/internal/hooks"
-	cmdtest "golang.org/x/tools/gopls/internal/lsp/cmd/test"
-	"golang.org/x/tools/gopls/internal/lsp/source"
-	"golang.org/x/tools/gopls/internal/lsp/tests"
-	"golang.org/x/tools/internal/bug"
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/testenv"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/hooks"
+	cmdtest "github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/cmd/test"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/source"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/tests"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/bug"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/event"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/testenv"
 )
 
 func TestMain(m *testing.M) {

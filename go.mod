@@ -1,6 +1,6 @@
-module golang.org/x/tools
+module github.com/Deng-Xian-Sheng/goplus-lsp
 
-go 1.18 // tagx:compat 1.16
+go 1.20 // tagx:compat 1.16
 
 require (
 	github.com/yuin/goldmark v1.4.13

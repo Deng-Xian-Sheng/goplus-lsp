@@ -15,7 +15,7 @@ import (
 
 	exec "golang.org/x/sys/execabs"
 
-	"golang.org/x/tools/container/intsets"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/container/intsets"
 )
 
 // CanPoint reports whether the type T is pointerlike,

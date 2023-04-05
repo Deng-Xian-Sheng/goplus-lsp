@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/tools/internal/goroot"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/goroot"
 
 	exec "golang.org/x/sys/execabs"
 )

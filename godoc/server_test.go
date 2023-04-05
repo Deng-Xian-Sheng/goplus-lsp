@@ -14,8 +14,8 @@ import (
 	"testing"
 	"text/template"
 
-	"golang.org/x/tools/godoc/vfs/mapfs"
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/godoc/vfs/mapfs"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/typeparams"
 )
 
 // TestIgnoredGoFiles tests the scenario where a folder has no .go or .c files,

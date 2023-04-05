@@ -17,7 +17,7 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"golang.org/x/tools/cover"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/cover"
 )
 
 // htmlOutput reads the profile data from profile and generates an HTML

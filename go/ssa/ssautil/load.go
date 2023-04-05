@@ -11,16 +11,16 @@ import (
 	"go/token"
 	"go/types"
 
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/go/packages"
-	"golang.org/x/tools/go/ssa"
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/loader"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/packages"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/ssa"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/typeparams"
 )
 
 // Packages creates an SSA program for a set of packages.
 //
 // The packages must have been loaded from source syntax using the
-// golang.org/x/tools/go/packages.Load function in LoadSyntax or
+// github.com/Deng-Xian-Sheng/goplus-lsp/go/packages.Load function in LoadSyntax or
 // LoadAllSyntax mode.
 //
 // Packages creates an SSA package for each well-typed package in the
@@ -42,7 +42,7 @@ func Packages(initial []*packages.Package, mode ssa.BuilderMode) (*ssa.Program, 
 // their dependencies.
 //
 // The packages must have been loaded from source syntax using the
-// golang.org/x/tools/go/packages.Load function in LoadAllSyntax mode.
+// github.com/Deng-Xian-Sheng/goplus-lsp/go/packages.Load function in LoadAllSyntax mode.
 //
 // AllPackages creates an SSA package for each well-typed package in the
 // initial list, plus all their dependencies. The resulting list of
@@ -102,7 +102,7 @@ func doPackages(initial []*packages.Package, mode ssa.BuilderMode, deps bool) (*
 //
 // The mode parameter controls diagnostics and checking during SSA construction.
 //
-// Deprecated: Use golang.org/x/tools/go/packages and the Packages
+// Deprecated: Use github.com/Deng-Xian-Sheng/goplus-lsp/go/packages and the Packages
 // function instead; see ssa.Example_loadPackages.
 func CreateProgram(lprog *loader.Program, mode ssa.BuilderMode) *ssa.Program {
 	prog := ssa.NewProgram(lprog.Fset, mode)

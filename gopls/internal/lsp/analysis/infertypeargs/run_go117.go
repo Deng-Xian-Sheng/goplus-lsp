@@ -7,7 +7,7 @@
 
 package infertypeargs
 
-import "golang.org/x/tools/go/analysis"
+import "github.com/Deng-Xian-Sheng/goplus-lsp/go/analysis"
 
 // This analyzer only relates to go1.18+, and uses the types.CheckExpr API that
 // was added in Go 1.13.

@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"os"
 
-	"golang.org/x/tools/go/packages"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/packages"
 )
 
 // Example demonstrates how to load the packages specified on the

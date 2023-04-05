@@ -5,11 +5,11 @@
 // Package hooks adds all the standard gopls implementations.
 // This can be used in tests without needing to use the gopls main, and is
 // also the place to edit for custom builds of gopls.
-package hooks // import "golang.org/x/tools/gopls/internal/hooks"
+package hooks // import "github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/hooks"
 
 import (
-	"golang.org/x/tools/gopls/internal/lsp/source"
-	"golang.org/x/tools/internal/diff"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/source"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/diff"
 	"mvdan.cc/xurls/v2"
 )
 

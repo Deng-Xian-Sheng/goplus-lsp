@@ -8,8 +8,7 @@ import (
 	"fmt"
 	"testing"
 
-	"golang.org/x/tools/gopls/internal/lsp/protocol"
-	. "golang.org/x/tools/gopls/internal/lsp/regtest"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/protocol"
 )
 
 // Test for golang/go#50267: diagnostics should be re-sent after a file is

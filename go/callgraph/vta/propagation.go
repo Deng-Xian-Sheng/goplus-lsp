@@ -7,10 +7,10 @@ package vta
 import (
 	"go/types"
 
-	"golang.org/x/tools/go/callgraph/vta/internal/trie"
-	"golang.org/x/tools/go/ssa"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/callgraph/vta/internal/trie"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/ssa"
 
-	"golang.org/x/tools/go/types/typeutil"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/types/typeutil"
 )
 
 // scc computes strongly connected components (SCCs) of `g` using the

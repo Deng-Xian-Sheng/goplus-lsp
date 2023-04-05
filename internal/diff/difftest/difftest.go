@@ -4,13 +4,13 @@
 
 // Package difftest supplies a set of tests that will operate on any
 // implementation of a diff algorithm as exposed by
-// "golang.org/x/tools/internal/diff"
+// "github.com/Deng-Xian-Sheng/goplus-lsp/internal/diff"
 package difftest
 
 import (
 	"testing"
 
-	"golang.org/x/tools/internal/diff"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/diff"
 )
 
 const (

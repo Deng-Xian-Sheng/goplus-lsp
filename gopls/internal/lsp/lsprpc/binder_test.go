@@ -11,10 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/tools/gopls/internal/lsp/protocol"
-	jsonrpc2_v2 "golang.org/x/tools/internal/jsonrpc2_v2"
-
-	. "golang.org/x/tools/gopls/internal/lsp/lsprpc"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/protocol"
+	jsonrpc2_v2 "github.com/Deng-Xian-Sheng/goplus-lsp/internal/jsonrpc2_v2"
 )
 
 type TestEnv struct {

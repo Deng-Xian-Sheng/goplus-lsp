@@ -7,7 +7,7 @@
 //
 // To run:
 //
-// $ cd $GOPATH/src/golang.org/x/tools/gopls
+// $ cd $GOPATH/src/github.com/Deng-Xian-Sheng/goplus-lsp/gopls
 // $ go run release/release.go -version=<version>
 package main
 
@@ -24,9 +24,9 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/packages"
 	"golang.org/x/mod/modfile"
 	"golang.org/x/mod/semver"
-	"golang.org/x/tools/go/packages"
 )
 
 var (
@@ -135,7 +135,7 @@ func validateHardcodedVersion(wd string, version string) error {
 		Mode: packages.NeedName | packages.NeedFiles |
 			packages.NeedCompiledGoFiles | packages.NeedImports |
 			packages.NeedTypes | packages.NeedTypesSizes,
-	}, "golang.org/x/tools/gopls/internal/lsp/debug")
+	}, "github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/debug")
 	if err != nil {
 		return err
 	}
@@ -187,16 +187,16 @@ func validateGoModFile(wd string) error {
 		return err
 	}
 	hash := string(stdout)
-	// Find the golang.org/x/tools require line and compare the versions.
+	// Find the github.com/Deng-Xian-Sheng/goplus-lsp require line and compare the versions.
 	var version string
 	for _, req := range gomod.Require {
-		if req.Mod.Path == "golang.org/x/tools" {
+		if req.Mod.Path == "github.com/Deng-Xian-Sheng/goplus-lsp" {
 			version = req.Mod.Version
 			break
 		}
 	}
 	if version == "" {
-		return fmt.Errorf("no require for golang.org/x/tools")
+		return fmt.Errorf("no require for github.com/Deng-Xian-Sheng/goplus-lsp")
 	}
 	split := strings.Split(version, "-")
 	if len(split) != 3 {
@@ -207,7 +207,7 @@ func validateGoModFile(wd string) error {
 		return fmt.Errorf("unexpected pseudoversion format %s", version)
 	}
 	if !strings.HasPrefix(hash, last) {
-		return fmt.Errorf("golang.org/x/tools pseudoversion should be at commit %s, instead got %s", hash, last)
+		return fmt.Errorf("github.com/Deng-Xian-Sheng/goplus-lsp pseudoversion should be at commit %s, instead got %s", hash, last)
 	}
 	return nil
 }

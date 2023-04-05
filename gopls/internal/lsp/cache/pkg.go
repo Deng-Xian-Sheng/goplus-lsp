@@ -11,10 +11,10 @@ import (
 	"go/token"
 	"go/types"
 
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/source"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/span"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/memoize"
 	"golang.org/x/mod/module"
-	"golang.org/x/tools/gopls/internal/lsp/source"
-	"golang.org/x/tools/gopls/internal/span"
-	"golang.org/x/tools/internal/memoize"
 )
 
 // Convenient local aliases for typed strings.

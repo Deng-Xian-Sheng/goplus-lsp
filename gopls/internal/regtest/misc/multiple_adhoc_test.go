@@ -6,8 +6,6 @@ package misc
 
 import (
 	"testing"
-
-	. "golang.org/x/tools/gopls/internal/lsp/regtest"
 )
 
 func TestMultipleAdHocPackages(t *testing.T) {

@@ -14,8 +14,8 @@ import (
 
 	exec "golang.org/x/sys/execabs"
 
-	"golang.org/x/tools/gopls/internal/span"
-	"golang.org/x/tools/internal/testenv"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/span"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/testenv"
 )
 
 func (r *runner) Format(t *testing.T, spn span.Span) {

@@ -15,15 +15,14 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/govulncheck"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/command"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/protocol"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/tests/compare"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/vulncheck"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/vulncheck/vulntest"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/testenv"
 	"github.com/google/go-cmp/cmp"
-	"golang.org/x/tools/gopls/internal/govulncheck"
-	"golang.org/x/tools/gopls/internal/lsp/command"
-	"golang.org/x/tools/gopls/internal/lsp/protocol"
-	. "golang.org/x/tools/gopls/internal/lsp/regtest"
-	"golang.org/x/tools/gopls/internal/lsp/tests/compare"
-	"golang.org/x/tools/gopls/internal/vulncheck"
-	"golang.org/x/tools/gopls/internal/vulncheck/vulntest"
-	"golang.org/x/tools/internal/testenv"
 )
 
 func TestRunGovulncheckError(t *testing.T) {

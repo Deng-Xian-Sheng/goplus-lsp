@@ -15,9 +15,9 @@ import (
 	"sync"
 	"time"
 
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/bug"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/diff"
 	"github.com/sergi/go-diff/diffmatchpatch"
-	"golang.org/x/tools/internal/bug"
-	"golang.org/x/tools/internal/diff"
 )
 
 // structure for saving information about diffs

@@ -11,7 +11,7 @@
 // THIS PACKAGE IS EXPERIMENTAL AND MAY CHANGE AT ANY TIME.
 //
 // It is provided only for the gopls tool. It requires well-typed inputs.
-package satisfy // import "golang.org/x/tools/refactor/satisfy"
+package satisfy // import "github.com/Deng-Xian-Sheng/goplus-lsp/refactor/satisfy"
 
 // NOTES:
 //
@@ -43,9 +43,9 @@ import (
 	"go/token"
 	"go/types"
 
-	"golang.org/x/tools/go/ast/astutil"
-	"golang.org/x/tools/go/types/typeutil"
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/ast/astutil"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/types/typeutil"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/typeparams"
 )
 
 // A Constraint records the fact that the RHS type does and must
@@ -707,7 +707,7 @@ func (f *Finder) stmt(s ast.Stmt) {
 	}
 }
 
-// -- Plundered from golang.org/x/tools/go/ssa -----------------
+// -- Plundered from github.com/Deng-Xian-Sheng/goplus-lsp/go/ssa -----------------
 
 // deref returns a pointer's element type; otherwise it returns typ.
 func deref(typ types.Type) types.Type {

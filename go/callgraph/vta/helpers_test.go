@@ -12,11 +12,11 @@ import (
 	"sort"
 	"strings"
 
-	"golang.org/x/tools/go/callgraph"
-	"golang.org/x/tools/go/ssa/ssautil"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/callgraph"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/ssa/ssautil"
 
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/go/ssa"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/loader"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/ssa"
 )
 
 // want extracts the contents of the first comment

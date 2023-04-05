@@ -4,7 +4,7 @@
 
 // callgraph: a tool for reporting the call graph of a Go program.
 // See Usage for details, or run with -help.
-package main // import "golang.org/x/tools/cmd/callgraph"
+package main // import "github.com/Deng-Xian-Sheng/goplus-lsp/cmd/callgraph"
 
 // TODO(adonovan):
 //
@@ -32,16 +32,16 @@ import (
 	"runtime"
 	"text/template"
 
-	"golang.org/x/tools/go/buildutil"
-	"golang.org/x/tools/go/callgraph"
-	"golang.org/x/tools/go/callgraph/cha"
-	"golang.org/x/tools/go/callgraph/rta"
-	"golang.org/x/tools/go/callgraph/static"
-	"golang.org/x/tools/go/callgraph/vta"
-	"golang.org/x/tools/go/packages"
-	"golang.org/x/tools/go/pointer"
-	"golang.org/x/tools/go/ssa"
-	"golang.org/x/tools/go/ssa/ssautil"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/buildutil"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/callgraph"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/callgraph/cha"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/callgraph/rta"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/callgraph/static"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/callgraph/vta"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/packages"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/pointer"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/ssa"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/ssa/ssautil"
 )
 
 // flags
@@ -91,7 +91,7 @@ Flags:
            One of:
 
             digraph     output suitable for input to
-                        golang.org/x/tools/cmd/digraph.
+                        github.com/Deng-Xian-Sheng/goplus-lsp/cmd/digraph.
             graphviz    output in AT&T GraphViz (.dot) format.
 
            All other values are interpreted using text/template syntax.
@@ -140,8 +140,8 @@ Examples:
 
   Show all functions directly called by the callgraph tool's main function:
 
-    callgraph -format=digraph golang.org/x/tools/cmd/callgraph |
-      digraph succs golang.org/x/tools/cmd/callgraph.main
+    callgraph -format=digraph github.com/Deng-Xian-Sheng/goplus-lsp/cmd/callgraph |
+      digraph succs github.com/Deng-Xian-Sheng/goplus-lsp/cmd/callgraph.main
 `
 
 func init() {

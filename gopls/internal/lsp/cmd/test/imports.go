@@ -7,8 +7,8 @@ package cmdtest
 import (
 	"testing"
 
-	"golang.org/x/tools/gopls/internal/span"
-	"golang.org/x/tools/internal/diff"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/span"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/diff"
 )
 
 func (r *runner) Import(t *testing.T, spn span.Span) {

@@ -8,11 +8,11 @@ import (
 	"bytes"
 	"context"
 
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/event/core"
-	"golang.org/x/tools/internal/event/export"
-	"golang.org/x/tools/internal/event/label"
-	"golang.org/x/tools/internal/xcontext"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/event"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/event/core"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/event/export"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/event/label"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/xcontext"
 )
 
 type contextKey int

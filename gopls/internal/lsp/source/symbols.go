@@ -11,9 +11,9 @@ import (
 	"go/token"
 	"go/types"
 
-	"golang.org/x/tools/gopls/internal/lsp/lsppos"
-	"golang.org/x/tools/gopls/internal/lsp/protocol"
-	"golang.org/x/tools/internal/event"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/lsppos"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/protocol"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/event"
 )
 
 func DocumentSymbols(ctx context.Context, snapshot Snapshot, fh FileHandle) ([]protocol.DocumentSymbol, error) {

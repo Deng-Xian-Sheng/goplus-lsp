@@ -63,7 +63,7 @@ func sortImports(localPrefix string, tokFile *token.File, f *ast.File) {
 }
 
 // mergeImports merges all the import declarations into the first one.
-// Taken from golang.org/x/tools/ast/astutil.
+// Taken from github.com/Deng-Xian-Sheng/goplus-lsp/ast/astutil.
 // This does not adjust line numbers properly
 func mergeImports(f *ast.File) {
 	if len(f.Decls) <= 1 {
@@ -96,7 +96,7 @@ func mergeImports(f *ast.File) {
 }
 
 // declImports reports whether gen contains an import of path.
-// Taken from golang.org/x/tools/ast/astutil.
+// Taken from github.com/Deng-Xian-Sheng/goplus-lsp/ast/astutil.
 func declImports(gen *ast.GenDecl, path string) bool {
 	if gen.Tok != token.IMPORT {
 		return false

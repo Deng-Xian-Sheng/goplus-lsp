@@ -14,7 +14,7 @@ import (
 	"strconv"
 	"strings"
 
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/typeparams"
 )
 
 // NewConst returns a new constant of the specified value and type.
@@ -175,7 +175,7 @@ func nillable(t types.Type) bool {
 	}
 }
 
-// TODO(adonovan): move everything below into golang.org/x/tools/go/ssa/interp.
+// TODO(adonovan): move everything below into github.com/Deng-Xian-Sheng/goplus-lsp/go/ssa/interp.
 
 // Int64 returns the numeric value of this constant truncated to fit
 // a signed 64-bit integer.

@@ -6,7 +6,7 @@
 package tag
 
 import (
-	"golang.org/x/tools/internal/event/keys"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/event/keys"
 )
 
 var (

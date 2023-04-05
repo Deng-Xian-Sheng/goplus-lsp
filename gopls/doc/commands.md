@@ -117,7 +117,7 @@ Args:
 Result:
 
 ```
-map[golang.org/x/tools/gopls/internal/lsp/protocol.DocumentURI]*golang.org/x/tools/gopls/internal/govulncheck.Result
+map[github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/protocol.DocumentURI]*github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/govulncheck.Result
 ```
 
 ### **Toggle gc_details**

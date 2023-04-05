@@ -4,8 +4,8 @@
 package main
 
 import (
-	"golang.org/x/tools/go/analysis/passes/fieldalignment"
-	"golang.org/x/tools/go/analysis/singlechecker"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/analysis/passes/fieldalignment"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/analysis/singlechecker"
 )
 
 func main() { singlechecker.Main(fieldalignment.Analyzer) }

@@ -14,10 +14,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/event/keys"
-	"golang.org/x/tools/internal/event/label"
-	"golang.org/x/tools/internal/event/tag"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/event"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/event/keys"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/event/label"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/event/tag"
 )
 
 // Binder builds a connection configuration.

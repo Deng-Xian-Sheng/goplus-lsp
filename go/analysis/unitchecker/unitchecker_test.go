@@ -20,11 +20,11 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/go/analysis/passes/assign"
-	"golang.org/x/tools/go/analysis/passes/findcall"
-	"golang.org/x/tools/go/analysis/passes/printf"
-	"golang.org/x/tools/go/analysis/unitchecker"
-	"golang.org/x/tools/go/packages/packagestest"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/analysis/passes/assign"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/analysis/passes/findcall"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/analysis/passes/printf"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/analysis/unitchecker"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/go/packages/packagestest"
 )
 
 func TestMain(m *testing.M) {

@@ -10,7 +10,7 @@ package tests
 import (
 	"testing"
 
-	"golang.org/x/tools/gopls/internal/lsp/tests/compare"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/tests/compare"
 )
 
 // The markdown in the golden files matches the converter in comment.go,

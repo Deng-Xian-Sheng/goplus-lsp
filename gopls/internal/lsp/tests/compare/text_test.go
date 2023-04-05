@@ -7,7 +7,7 @@ package compare_test
 import (
 	"testing"
 
-	"golang.org/x/tools/gopls/internal/lsp/tests/compare"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/tests/compare"
 )
 
 func TestText(t *testing.T) {
