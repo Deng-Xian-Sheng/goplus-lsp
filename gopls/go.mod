@@ -1,6 +1,6 @@
 module github.com/Deng-Xian-Sheng/goplus-lsp/gopls
 
-go 1.18
+go 1.20
 
 require (
 	github.com/Deng-Xian-Sheng/goplus-lsp v0.0.0-20230405141037-eeee04c42cb1
