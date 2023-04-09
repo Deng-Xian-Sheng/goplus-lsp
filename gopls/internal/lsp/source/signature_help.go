@@ -11,7 +11,7 @@ import (
 	"go/token"
 	"go/types"
 
-	"github.com/Deng-Xian-Sheng/goplus-lsp/go/ast/astutil"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gop/ast/astutil"
 	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/protocol"
 	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/event"
 )

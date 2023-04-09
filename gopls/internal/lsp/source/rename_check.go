@@ -15,7 +15,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/Deng-Xian-Sheng/goplus-lsp/go/ast/astutil"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gop/ast/astutil"
 	"github.com/Deng-Xian-Sheng/goplus-lsp/refactor/satisfy"
 )
 

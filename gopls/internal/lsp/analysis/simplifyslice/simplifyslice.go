@@ -15,7 +15,7 @@ import (
 
 	"github.com/Deng-Xian-Sheng/goplus-lsp/go/analysis"
 	"github.com/Deng-Xian-Sheng/goplus-lsp/go/analysis/passes/inspect"
-	"github.com/Deng-Xian-Sheng/goplus-lsp/go/ast/inspector"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gop/ast/inspector"
 )
 
 const Doc = `check for slice simplifications

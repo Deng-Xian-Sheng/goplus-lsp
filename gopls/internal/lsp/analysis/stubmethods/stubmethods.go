@@ -16,7 +16,7 @@ import (
 
 	"github.com/Deng-Xian-Sheng/goplus-lsp/go/analysis"
 	"github.com/Deng-Xian-Sheng/goplus-lsp/go/analysis/passes/inspect"
-	"github.com/Deng-Xian-Sheng/goplus-lsp/go/ast/astutil"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gop/ast/astutil"
 	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/analysisinternal"
 	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/typesinternal"
 )

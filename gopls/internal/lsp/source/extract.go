@@ -17,7 +17,7 @@ import (
 	"text/scanner"
 
 	"github.com/Deng-Xian-Sheng/goplus-lsp/go/analysis"
-	"github.com/Deng-Xian-Sheng/goplus-lsp/go/ast/astutil"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gop/ast/astutil"
 	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/safetoken"
 	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/span"
 	"github.com/Deng-Xian-Sheng/goplus-lsp/internal/analysisinternal"

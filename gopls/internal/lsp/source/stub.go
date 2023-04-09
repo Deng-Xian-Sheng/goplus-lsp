@@ -16,7 +16,7 @@ import (
 	"strings"
 
 	"github.com/Deng-Xian-Sheng/goplus-lsp/go/analysis"
-	"github.com/Deng-Xian-Sheng/goplus-lsp/go/ast/astutil"
+	"github.com/Deng-Xian-Sheng/goplus-lsp/gop/ast/astutil"
 	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/analysis/stubmethods"
 	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/protocol"
 	"github.com/Deng-Xian-Sheng/goplus-lsp/gopls/internal/lsp/safetoken"
