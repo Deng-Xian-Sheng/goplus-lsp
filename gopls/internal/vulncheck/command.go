@@ -68,6 +68,7 @@ func init() {
 			return err
 		}
 		logf("Loaded %d packages and their dependencies", len(pkgs))
+		//FIXME Remove unnecessary vulnerability checks
 		//cli, err := client.NewClient(findGOVULNDB(cfg.Env), client.Options{
 		//	HTTPCache: govulncheck.DefaultCache(),
 		//})
@@ -88,7 +89,7 @@ func init() {
 		//	}
 		//}
 		//logf("Found %d affecting vulns and %d unaffecting vulns in imported packages", affecting, len(res.Vulns)-affecting)
-		if err := json.NewEncoder(os.Stdout).Encode(&govulncheck.Result{}); err != nil {
+		if err = json.NewEncoder(os.Stdout).Encode(&govulncheck.Result{}); err != nil {
 			return err
 		}
 		return nil
