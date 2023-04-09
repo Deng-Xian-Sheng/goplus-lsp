@@ -25,9 +25,7 @@ import (
 	"golang.org/x/mod/semver"
 	"golang.org/x/sync/errgroup"
 	"golang.org/x/vuln/client"
-	gvcapi "golang.org/x/vuln/exp/govulncheck"
 	"golang.org/x/vuln/osv"
-	"golang.org/x/vuln/vulncheck"
 )
 
 func init() {
@@ -70,27 +68,27 @@ func init() {
 			return err
 		}
 		logf("Loaded %d packages and their dependencies", len(pkgs))
-		cli, err := client.NewClient(findGOVULNDB(cfg.Env), client.Options{
-			HTTPCache: govulncheck.DefaultCache(),
-		})
-		if err != nil {
-			return err
-		}
-		res, err := gvcapi.Source(context.Background(), &gvcapi.Config{
-			Client:    cli,
-			GoVersion: os.Getenv(GoVersionForVulnTest),
-		}, vulncheck.Convert(pkgs))
-		if err != nil {
-			return err
-		}
-		affecting := 0
-		for _, v := range res.Vulns {
-			if v.IsCalled() {
-				affecting++
-			}
-		}
-		logf("Found %d affecting vulns and %d unaffecting vulns in imported packages", affecting, len(res.Vulns)-affecting)
-		if err := json.NewEncoder(os.Stdout).Encode(res); err != nil {
+		//cli, err := client.NewClient(findGOVULNDB(cfg.Env), client.Options{
+		//	HTTPCache: govulncheck.DefaultCache(),
+		//})
+		//if err != nil {
+		//	return err
+		//}
+		//res, err := gvcapi.Source(context.Background(), &gvcapi.Config{
+		//	Client:    cli,
+		//	GoVersion: os.Getenv(GoVersionForVulnTest),
+		//}, vulncheck.Convert(pkgs))
+		//if err != nil {
+		//	return err
+		//}
+		//affecting := 0
+		//for _, v := range res.Vulns {
+		//	if v.IsCalled() {
+		//		affecting++
+		//	}
+		//}
+		//logf("Found %d affecting vulns and %d unaffecting vulns in imported packages", affecting, len(res.Vulns)-affecting)
+		if err := json.NewEncoder(os.Stdout).Encode(&govulncheck.Result{}); err != nil {
 			return err
 		}
 		return nil
