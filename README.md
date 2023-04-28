@@ -4,7 +4,7 @@ goplus Language Server Protocol (LSP).
 
 # ⚠️ Warning
 
-*I fail! not use!*
+**I fail! not use!**
 
 It doesn't work yet!
 
